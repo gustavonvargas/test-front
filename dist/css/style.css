@@ -1,0 +1,155 @@
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+html, body {
+  background-color: #353535; }
+
+header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  text-align: center; }
+  header .list-radius {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left; }
+    header .list-radius li {
+      margin: 13px 0 0 0;
+      width: 10px;
+      height: 10px;
+      background-color: #fff;
+      border-radius: 10px;
+      display: inline-block; }
+  header .fa-wifi {
+    margin: 9px 0 0 6px;
+    padding: 0;
+    font-family: 18px;
+    float: left;
+    color: #fff; }
+  header .hour-center {
+    margin: 12px auto 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif; }
+  header .right-battery {
+    margin: 0;
+    padding: 0;
+    float: right;
+    display: block; }
+    header .right-battery .percent-battery {
+      margin: 0 auto 0;
+      padding: 0;
+      display: inline-block;
+      font-size: 14px;
+      text-align: center;
+      color: #fff;
+      font-family: 'Open Sans', sans-serif; }
+    header .right-battery .fa-battery {
+      margin: 9px 0 0 5px;
+      padding: 0;
+      font-family: 12px;
+      display: inline-block;
+      color: #fff; }
+
+.section-hour {
+  margin: 0;
+  padding: 0;
+  display: block;
+  position: relative; }
+  .section-hour h1 {
+    margin: 83px auto 0;
+    padding: 0;
+    display: block;
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif; }
+  .section-hour p {
+    margin: 0 auto 0;
+    padding: 0;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif; }
+
+.section-profile {
+  margin: 75px auto 0;
+  padding: 0;
+  display: block;
+  position: relative; }
+  .section-profile .img-circle-profile {
+    margin: 0 auto;
+    padding: 0;
+    width: 228px;
+    height: 228px;
+    overflow: hidden;
+    border-radius: 228px; }
+    .section-profile .img-circle-profile img {
+      margin: 0 auto;
+      padding: 0;
+      max-width: 100%;
+      position: relative;
+      display: block;
+      top: 0;
+      left: 0;
+      right: 0; }
+  .section-profile h2 {
+    margin: 10px auto 5px;
+    padding: 0;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif; }
+  .section-profile h3 {
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif; }
+
+.footer {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  bottom: 12px;
+  width: 100%; }
+  .footer .btn-Unlock {
+    background-color: #fff;
+    margin: 0 auto 27px;
+    border: none;
+    padding: 10px 20px;
+    color: #545454;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    border-radius: 15px; }
+  .footer .icon-camera {
+    position: relative;
+    padding: 0 11px 0 0;
+    font-size: 24px;
+    color: #fff;
+    float: right; }
+  .footer .round-separate {
+    margin: 0 auto;
+    padding: 0;
+    width: 42px;
+    height: 9px;
+    display: block;
+    background-color: #747474;
+    border-radius: 5px; }
+
+/*# sourceMappingURL=maps/style.css.map */

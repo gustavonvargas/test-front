@@ -1,0 +1,30 @@
+{
+  "name": "test-front",
+  "version": "1.0.0",
+  "description": "Nosso café está sempre fresquinho, nosso almoço tem comida caseira preparada com muito amor e carinho e ainda temos lanche a tarde!\r Estamos procurando alguém que: Tenha boa comunicação e empatia; Goste de aprender; Tenha auto motivação e pro-atividade; Consiga se virar bem no inglês; Talvez tenha noções de e-commerce; Pense grande ;)\r Encaminhe seu currículo para vagas@trezo.com.br e coloque no assunto “Quero ser #TrezoTeam“, anexado com a proposta salarial.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavonvargas/test-front.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavonvargas/test-front/issues"
+  },
+  "homepage": "https://github.com/gustavonvargas/test-front#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.11",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.12.0",
+    "gulp-uglify": "^2.1.2",
+    "node-bourbon": "^4.2.8"
+  }
+}
